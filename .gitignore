@@ -16,3 +16,5 @@ reports/
 
 # Python cache
 __pycache__/
+
+/home/rohtih/sparkathon/details.txt
