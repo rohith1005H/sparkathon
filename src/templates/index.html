@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShelfLife Savers Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>ShelfLife Savers Dashboard</h1>
+    </header>
+    <main>
+        <div class="card">
+            <h2>🔮 Demand Prediction</h2>
+            <form id="predict-form">
+                <label for="predict-store">Store ID:</label>
+                <select id="predict-store" required>
+                    <option value="Store_A">Store A</option>
+                    <option value="Store_B">Store B</option>
+                    <option value="Store_C">Store C</option>
+                    <option value="Store_D">Store D</option>
+                    <option value="Store_E">Store E</option>
+                </select>
+                <label for="predict-product">Product:</label>
+                <select id="predict-product" required>
+                    <!-- Product options will be loaded by JavaScript -->
+                </select>
+                <button type="submit">Predict Demand</button>
+            </form>
+            <div id="prediction-result" class="result-box">
+                <p>Results will appear here...</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>🏪 Run Daily Operations</h2>
+            <form id="operations-form">
+                <label for="operations-store">Store ID:</label>
+                <select id="operations-store" required>
+                    <option value="Store_A">Store A</option>
+                    <option value="Store_B">Store B</option>
+                    <option value="Store_C">Store C</option>
+                    <option value="Store_D">Store D</option>
+                    <option value="Store_E">Store E</option>
+                </select>
+                <button type="submit">Run Operations</button>
+            </form>
+            <div id="operations-result" class="result-box">
+                <p>Operation results will appear here...</p>
+            </div>
+        </div>
+    </main>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

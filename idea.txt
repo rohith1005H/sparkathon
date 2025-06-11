@@ -1,0 +1,46 @@
+Theme 2: Transforming retail supply chains: From inventory management to last-mile delivery
+Idea: "FreshFlow AI: Predictive Perishables & Dynamic Last-Mile Routing"
+Main Problem:
+Inventory (Perishables): High spoilage rates for fresh produce and dairy due to inaccurate demand forecasting at a granular level and suboptimal stock rotation. This leads to waste and lost sales.
+Last-Mile (Perishables): Delivering fresh groceries efficiently, especially during peak hours or in diverse weather conditions, while maintaining cold chain integrity and minimizing delivery times/costs is a huge challenge.
+How You're Solving It:
+An AI-powered system with two core modules:
+Predictive Perishables Management:
+Uses machine learning (historical sales, weather forecasts, local events, social media trends, seasonality) to predict demand for specific perishable items at individual store/fulfillment center levels with high accuracy.
+Provides dynamic reordering suggestions and optimal stock rotation guidance (First-Expired-First-Out enhanced with demand signals).
+Flags items nearing expiry for automated markdowns or donation triggers.
+Dynamic Last-Mile Routing for Freshness:
+Integrates with order management and considers the "freshness window" of items in an order.
+Optimizes delivery routes in real-time based on traffic, weather, delivery capacity (own fleet, gig workers), and the urgency of delivering perishables.
+Can prioritize orders with highly perishable items or suggest consolidation to ensure cold chain efficiency (e.g., grouping refrigerated deliveries).
+Tech Stack Ideas: Python (for ML), TensorFlow/PyTorch, route optimization APIs (e.g., Google OR-Tools, Mapbox), IoT sensor data (for cold chain, optional for hackathon but good to mention).
+
+
+Absolutely — here's a more natural, direct version without too much formality:
+
+---
+
+### **What’s your idea?**
+
+An AI system that predicts demand for perishable goods and plans delivery routes that keep groceries fresh and waste low.
+
+---
+
+### **What problem are you solving?**
+
+Stores throw away a lot of fresh produce and dairy because they can't predict demand accurately. On top of that, delivering these items fast — without spoiling — is tough, especially during traffic or bad weather.
+
+---
+
+### **How are you solving it?**
+
+We're building two things:
+
+1. A prediction model that looks at sales data, weather, local events, and trends to figure out how much of each perishable item a store really needs. It also helps rotate stock better and flags stuff that's about to expire.
+2. A routing engine that plans deliveries in real time based on how quickly items need to get there, road conditions, and available delivery drivers — so fresh stuff actually stays fresh.
+
+---
+
+Let me know if you want to tighten this up for a pitch slide or demo walkthrough.
+
+
